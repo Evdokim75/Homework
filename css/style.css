@@ -3,3 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+p {
+  color: blue;
+}
+#title {
+  color: chocolate;
+}
+.card {
+  color: darkmagenta;
+}
+.class1.class2 {
+  color: burlywood;
+}
+b p {
+  color: navy;
+}
+span[lang="nn"] {
+  color: fuchsia;
+}
+a[href^="https://"]
+{
+  color: darkgreen;
+}
+p ~ ul {
+  color: rgb(223, 16, 16);
+}
+div p {
+  background-color: goldenrod;
+}
