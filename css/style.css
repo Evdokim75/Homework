@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-family: "Pacifico", sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #909090;
+  text-align: center;
+}
+a {
+  text-align: right;
+}
+h1 {
+  color: #303030;
+  font-weight: 700;
+}
+h2 {
+  color: #303030;
+  font-weight: 700;
+}
+h3 {
+  color: #303030;
+  font-weight: 700;
+}
+img {
+  max-width: 300px;
+  border-radius: 1rem;
+}
+.card {
+  max-width: 350px;
+  display: inline-block;
+  margin: 1rem 1rem;
+  padding: 1rem;
+  border: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 30px;
+}
