@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+table {
+  border: 2px solid;
+  border-color: black;
+  padding: 0.25rem;
+}
+td,
+tr,
+th {
+  border: 1px solid;
+  border-color: azure;
+  padding: 0.25rem;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-red {
+  background-color: red;
+}
