@@ -3,3 +3,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  background: gray;
+}
+.py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.container {
+  width: 100%;
+  max-width: calc(1150px + 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  background: #e6e6e6;
+  margin: 2rem;
+}
+.hidden {
+  display: none !important;
+}
+.float-left {
+  float: left;
+  margin-right: 0.9rem;
+}
+.float-right {
+  float: right;
+  margin-left: 1rem;
+}
+.clearfix {
+  display: block;
+  overflow: auto;
+}
+.aqare {
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 200px;
+}
+.aqare.small {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  line-height: 100px;
+}
+.aqare1 {
+  width: 172px;
+  height: 200px;
+  background: #e6e6e6;
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 200px;
+}
