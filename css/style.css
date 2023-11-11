@@ -22,6 +22,10 @@ html {
   background: #e6e6e6;
   margin: 2rem;
 }
+.wrapper1 {
+  background: #e6e6e6;
+  
+}
 .hidden {
   display: none !important;
 }
@@ -52,14 +56,3 @@ html {
   height: 100px;
   font-size: 36px;
   line-height: 100px;
-}
-.aqare1 {
-  width: 172px;
-  height: 200px;
-  background: #e6e6e6;
-  color: #fff;
-  text-align: center;
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 200px;
-}
