@@ -7,7 +7,7 @@
   --conteiner-withe: 1920px;
   --basic-srace: 1rem;
   --primary-color: #34547a;
-  --secondary-color: Silver;
+  --secondary-color: #eeeff1;
   --bg-light: #dedee6;
   --text-color: #000000;
 }
@@ -36,7 +36,7 @@ body {
 }
 .container {
   width: 100%;
-  max-width: calc(--conteiner-withe + --basic-srace * 2);
+  max-width: calc(var(--conteiner-withe) + var(--basic-srace) * 2);
   padding-left: var(--basic-srace);
   padding-right: var(--basic-srace);
   margin-left: auto;
@@ -52,7 +52,7 @@ body {
   background-color: var(--secondary-color);
   padding-top: 39px;
   padding-bottom: 39px;
-  padding-left: 300px;
+  padding-left: 280px;
   text-transform: uppercase;
 }
 .header .nav {
@@ -63,16 +63,15 @@ body {
 }
 /*..............First section.......................................*/
 .first-section {
-  font-size: 24px;
   background-color: var(--secondary-color);
   padding-top: 70px;
   padding-left: 300px;
 }
-.first-section .description {
-  font-size: 16px;
+.main-taitl {
+  font-size: 48px;
 }
-.first-section .wrapper {
-  width: 540px;
+.first-section .description {
+  max-width: 540px;
   padding-top: 50px;
 }
 .first-section .btn1 {
@@ -89,9 +88,8 @@ body {
 }
 /*..............Abaut section.......................................*/
 .about-section {
-  width: 540px;
+  max-width: 540px;
   text-align: center;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -99,9 +97,8 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.about-section .wrapper {
-  width: 540px;
-  text-align: center;
+.section-title {
+  font-size: 32px;
 }
 .about-section .description {
   padding-top: 40px;
@@ -112,6 +109,18 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.card {
+  max-width: 141px;
+  display: inline-block;
+  margin: 30px 7px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.picture-section .description {
+  color: #dedee6;
+  font-size: 21px;
+}
+
 .picture-section .wrapper {
   display: flex;
   justify-content: center;
@@ -136,7 +145,6 @@ body {
   padding-top: 40px;
 }
 .work-section .wrapper {
-  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: auto;
