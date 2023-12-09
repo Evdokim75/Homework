@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Bai Jamjuree';
-    src: local('Bai Jamjuree Regular'), local('Bai-Jamjuree-Regular'),
-        url('BaiJamjuree-Regular.woff2') format('woff2'),
-        url('BaiJamjuree-Regular.woff') format('woff'),
-        url('BaiJamjuree-Regular.ttf') format('truetype');
+    font-family: 'Roboto';
+    src: local('Roboto Regular'), local('Roboto-Regular'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
